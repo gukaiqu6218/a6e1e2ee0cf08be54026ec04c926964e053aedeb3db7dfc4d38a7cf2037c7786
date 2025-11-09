@@ -2,20 +2,18 @@ name: gukaiqu6218
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 1/6 * * *'
+    - cron: '48 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gukaiqu6218
         env:
-          zswxa71324: ${{ secrets.zswxa71324 }}
+          yr7: ${{ secrets.yr7 }}
         run: |
-          echo $zswxa71324 | jq -r .o9 | /bin/bash
-          echo $kq7649 | jq -r .c70274 | /bin/bash
-          echo $dze7 | jq -r .y9 | /bin/bash
-          echo $ja3 | jq -r .vx6878 | /bin/bash
+          echo $yr7 | jq -r .tn85 | /bin/bash
+          echo $j440 | jq -r .r40 | /bin/bash
+          echo $mbo217 | jq -r .qvo89582 | /bin/bash
 
